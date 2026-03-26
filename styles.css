@@ -28,6 +28,9 @@ body {
     border-radius: 12px;
     padding: 24px 24px;
     width: 320px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
     flex-shrink: 0;
 }
 
@@ -76,6 +79,7 @@ body {
 
 .download-button {
     width: fit-content;
+    margin-top: auto;
     background-color: #e6e5e0;
     border: none;
     border-radius: 999px;
